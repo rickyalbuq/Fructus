@@ -17,6 +17,9 @@
 		407297952C3039DA0021FED2 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297942C3039DA0021FED2 /* FruitModel.swift */; };
 		407297992C303B000021FED2 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297982C303B000021FED2 /* FruitData.swift */; };
 		4072979B2C3048560021FED2 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072979A2C3048560021FED2 /* FruitRowView.swift */; };
+		4072979D2C306E800021FED2 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072979C2C306E800021FED2 /* FruitDetailView.swift */; };
+		4072979F2C3072200021FED2 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072979E2C3072200021FED2 /* FruitHeaderView.swift */; };
+		407297A12C3075120021FED2 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407297A02C3075120021FED2 /* SourceLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		407297942C3039DA0021FED2 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		407297982C303B000021FED2 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		4072979A2C3048560021FED2 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		4072979C2C306E800021FED2 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		4072979E2C3072200021FED2 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		407297A02C3075120021FED2 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,7 @@
 			children = (
 				407297972C303AE70021FED2 /* Data */,
 				407297932C3039BA0021FED2 /* Model */,
-				4072978B2C3025870021FED2 /* Views */,
+				4072978B2C3025870021FED2 /* View */,
 				4072978A2C3025570021FED2 /* App */,
 				407297802C3021EC0021FED2 /* Assets.xcassets */,
 				407297822C3021EC0021FED2 /* Preview Content */,
@@ -87,18 +93,21 @@
 				4072977C2C3021EA0021FED2 /* FructusApp.swift */,
 				4072977E2C3021EA0021FED2 /* ContentView.swift */,
 				407297902C3037DF0021FED2 /* OnboardingView.swift */,
+				4072979C2C306E800021FED2 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		4072978B2C3025870021FED2 /* Views */ = {
+		4072978B2C3025870021FED2 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				4072978C2C3025A90021FED2 /* FruitCardView.swift */,
 				4072978E2C3034B00021FED2 /* StartButtonView.swift */,
 				4072979A2C3048560021FED2 /* FruitRowView.swift */,
+				4072979E2C3072200021FED2 /* FruitHeaderView.swift */,
+				407297A02C3075120021FED2 /* SourceLinkView.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		407297932C3039BA0021FED2 /* Model */ = {
@@ -188,10 +197,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				407297992C303B000021FED2 /* FruitData.swift in Sources */,
+				407297A12C3075120021FED2 /* SourceLinkView.swift in Sources */,
 				4072978D2C3025A90021FED2 /* FruitCardView.swift in Sources */,
 				4072979B2C3048560021FED2 /* FruitRowView.swift in Sources */,
 				4072978F2C3034B00021FED2 /* StartButtonView.swift in Sources */,
+				4072979D2C306E800021FED2 /* FruitDetailView.swift in Sources */,
 				4072977F2C3021EA0021FED2 /* ContentView.swift in Sources */,
+				4072979F2C3072200021FED2 /* FruitHeaderView.swift in Sources */,
 				407297912C3037DF0021FED2 /* OnboardingView.swift in Sources */,
 				407297952C3039DA0021FED2 /* FruitModel.swift in Sources */,
 				4072977D2C3021EA0021FED2 /* FructusApp.swift in Sources */,
